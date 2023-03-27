@@ -6,6 +6,17 @@ This repo contains an example script of text classification based on the [Classi
 
 The example dataset is a small set of asthma-related publications from [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and a label of whether it describes a clinical trial (based of [MeSH data](https://www.nlm.nih.gov/mesh/meshhome.html)). The file ([asthma_trials_dataset.csv](https://github.com/jakelever/text_classification_in_R/blob/main/asthma_trials_dataset.csv)) is a comma-delimited file with two columns: label and text.
 
+## Libraries
+
+The script makes use of the following libraries:
+
+- tidyverse
+- tidymodels
+- textrecipes
+- stopwords
+- glmnet
+- vip
+
 ## Script
 
 The [text_classification.R](https://github.com/jakelever/text_classification_in_R/blob/main/text_classification.R) mostly follows the final steps in the [Classification chapter](https://smltar.com/mlclassification.html). It does the following:

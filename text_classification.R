@@ -4,16 +4,13 @@
 # by Emil Hvitfeldt and Julia Silge
 # https://smltar.com/mlclassification.html
 
-# Load various libraries for processing the data
+# Load various libraries for preprocessing, building and interrogating models
 library(tidyverse)
 library(tidymodels)
 library(textrecipes)
 library(stopwords)
-library(vip)
-
-# Load various libraries to create classifiers
-library(discrim)
 library(glmnet)
+library(vip)
 
 # Load up the dataset (with two columns: label and text)
 dataset <- read_csv("asthma_trials_dataset.csv")
