@@ -1,10 +1,10 @@
-# Example pipeline of a binary text classification approach in R
+# Example pipeline of a text classification approach in R
 
-This repo contains an example script of text classification based on the [Classification chapter](https://smltar.com/mlclassification.html) of [Supervised Machine Learning for Text Analysis in R by Emil Hvitfeldt and Julia Silge](https://smltar.com). 
+This repo contains an example script of text classification based on the [Classification chapter](https://smltar.com/mlclassification.html) of [Supervised Machine Learning for Text Analysis in R by Emil Hvitfeldt and Julia Silge](https://smltar.com).
 
 ## Dataset
 
-The example dataset is a small set of asthma-related publications from [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and a label of whether it describes a clinical trial (based of [MeSH data](https://www.nlm.nih.gov/mesh/meshhome.html)). The file ([asthma_trials_dataset.csv](https://github.com/jakelever/text_classification_in_R/blob/main/asthma_trials_dataset.csv)) is a comma-delimited file with two columns: label and text.
+The [example dataset](https://github.com/jakelever/text_classification_in_R/blob/main/asthma_trials_dataset.csv) is a small set of asthma-related publications from [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and a label of whether it describes a clinical trial (based of [MeSH data](https://www.nlm.nih.gov/mesh/meshhome.html)). The file ([asthma_trials_dataset.csv](https://github.com/jakelever/text_classification_in_R/blob/main/asthma_trials_dataset.csv)) is a comma-delimited file with two columns: label and text.
 
 ## Libraries
 
