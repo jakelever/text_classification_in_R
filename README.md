@@ -4,7 +4,7 @@ This repo contains an example script of text classification based on the [Classi
 
 ## Dataset
 
-The [example dataset](https://github.com/jakelever/text_classification_in_R/blob/main/asthma_trials_dataset.csv) is a small set of asthma-related publications from [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and a label of whether it describes a clinical trial (based of [MeSH data](https://www.nlm.nih.gov/mesh/meshhome.html)). The file ([asthma_trials_dataset.csv](https://github.com/jakelever/text_classification_in_R/blob/main/asthma_trials_dataset.csv)) is a comma-delimited file with two columns: label and text.
+The [example dataset](https://github.com/jakelever/text_classification_in_R/blob/main/asthma_trials_dataset.csv) is a small set of titles from asthma-related publications from [PubMed](https://pubmed.ncbi.nlm.nih.gov/) and a label of whether it describes a clinical trial (based of [MeSH data](https://www.nlm.nih.gov/mesh/meshhome.html)). The file ([asthma_trials_dataset.csv](https://github.com/jakelever/text_classification_in_R/blob/main/asthma_trials_dataset.csv)) is a comma-delimited file with two columns: label and text.
 
 ## Libraries
 
